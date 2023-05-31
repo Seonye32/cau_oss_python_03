@@ -10,6 +10,7 @@ class line:
     __width = 0
     __height = 0
 
+
     def __init__(self, width, height):
         """
         초기의 width값과 height값을 받음
@@ -18,7 +19,6 @@ class line:
         """
         self.__width = width
         self.__height = height
-
 
     def set_length(self, width, height):
         """
